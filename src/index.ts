@@ -19,6 +19,7 @@ mongoose.connect(MONGODB_URI, {})
         process.exit(1);
     });
 
+
 // Middleware to parse JSON body
 app.use(express.json());
 
